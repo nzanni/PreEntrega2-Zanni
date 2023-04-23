@@ -6,101 +6,128 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ver o no ver - Cines</title>
-    <link rel="stylesheet" href="../CSS/style.css">
-    <link rel="shortcut icon" href="../IMAGENES/Logo para CINE.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="shortcut icon" href="../IMAGENES/Logo para el INICIO.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@600&family=Roboto:wght@300&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="../CSS/style.css">
 </head>
 
 <body>
-    <header>
+    <header> <!-- Barra de navegacion-->
         <nav>
-            <img src="../IMAGENES/Logo Ver o no ver.PNG" alt="Logo de la pagina">
-            <form action="#" method="get">
-                <input type="text" placeholder="Buscar" name="Pelicula/Serie">
-                <input type="submit">
-            </form>
             <ul>
-                <li><a href="../index.html">INICIO</a></li>
-                <li><a href="../secciones/donde-ver.html">DONDE VER</a></li>
+                <li class="logo-navegacion"><a href="../index.html"> <img src="../IMAGENES/Logo Ver o no ver.PNG"
+                            alt="Logo e inicio de la pagina "></a>
+                </li>
+                <li class="barra-de-busqueda">
+                    <form action="#" method="get">
+                        <input type="text" placeholder="Película/Serie" name="Pelicula/Serie">
+                        <button type="button" class="btn btn-outline-warning">Buscar</button>
+                    </form>
+                </li>
+                <li class="menu-izquierdo"><a href="../secciones/donde-ver.html">DONDE VER</a></li>
                 <li><a href="../secciones/proximos-estrenos.html">PRÓXIMOS ESTRENOS</a></li>
                 <li><a href="../secciones/cines.html">CINES</a></li>
                 <li><a href="../secciones/streaming.html">STREAMING</a></li>
-              </ul>
+            </ul>
         </nav>
     </header>
+
     <main>
-        <h1>UBICACIONES DE CINES</h1>
-        <br>
-        <a href="https://www.cinemarkhoyts.com.ar/" target="_blank">CINEMARK</a>
-        <form action="#" method="get">
-            <select name="Ubicaciónes CINEMARK">
-                <option value="CINEMARK ALTO AVELLANEDA">CINEMARK ALTO AVELLANEDA</option>
-                <option value="CINEMARK CABALLITO">CINEMARK CABALLITO</option>
-                <option value="CINEMARK MALVINAS ARGENTINAS">CINEMARK MALVINAS ARGENTINAS</option>
-                <option value="CINEMARK MENDOZA">CINEMARK MENDOZA</option>
-                <option value="CINEMARK NEUQUEN">CINEMARK NEUQUEN</option>
-                <option value="CINEMARK PALERMO">CINEMARK PALERMO</option>
-                <option value="CINEMARK PUERTO MADERO">CINEMARK PUERTO MADERO</option>
-                <option value="CINEMARK SALTA">CINEMARK SALTA</option>
-                <option value="CINEMARK SAN JUSTO">CINEMARK SAN JUSTO</option>
-                <option value="CINEMARK SANTA FE">CINEMARK SANTA FE</option>
-                <option value="CINEMARK SOLEIL">CINEMARK SOLEIL</option>
-                <option value="CINEMARK TORTUGUITAS">CINEMARK TORTUGUITAS</option>
-            </select>
-        </form>
-        <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3281.1410322228694!2d-58.37102178504983!3d-34.676389868853356!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a33340aec25703%3A0xab18b84c236f38ff!2sCinemark%20Alto%20Avellaneda!5e0!3m2!1ses!2sar!4v1679723320962!5m2!1ses!2sar"
-            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"></iframe>
-
-        <br>
-
-        <a href="https://www.cinemarkhoyts.com.ar/" target="_blank">HOYTS</a>
-        <form action="#" method="get">
-            <select name="Ubicaciónes HOYTS">
-                <option value="HOYTS ABASTO">HOYTS ABASTO</option>
-                <option value="HOYTS DOT">HOYTS DOT</option>
-                <option value="HOYTS MORENO">HOYTS MORENO</option>
-                <option value="HOYTS MORON">HOYTS MORON</option>
-                <option value="HOYTS NUEVO CENTRO">HOYTS NUEVO CENTRO</option>
-                <option value="HOYTS PATIO OLMOS">HOYTS PATIO OLMOS</option>
-                <option value="HOYTS QUILMES">HOYTS QUILMES</option>
-                <option value="HOYTS ROSARIO">HOYTS ROSARIO</option>
-                <option value="HOYTS SALTA">HOYTS SALTA</option>
-                <option value="HOYTS TEMPERLEY">HOYTS TEMPERLEY</option>
-                <option value="HOYTS UNICENTER">HOYTS UNICENTER</option>
-            </select>
-        </form>
-        <iframe
-            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13136.137889695723!2d-58.4108409!3d-34.6032898!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca8c8513598b%3A0x89b570ec39dc7d88!2sHoyts%20Abasto%20%7C%20Cinemark%20Hoyts!5e0!3m2!1ses!2sar!4v1679723129303!5m2!1ses!2sar"
-            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"></iframe>
-            
+        <div class="nombre-ubicaciones">
             <br>
-            <a href="#" class="arriba">IR ARRIBA</a>
-         </main>
+            <h3>UBICACIONES DE CINES</h3>
+            <br>
+            <a href="https://www.cinemarkhoyts.com.ar/" target="_blank"><img class="Cinemark y Hoyts"
+                src="../IMAGENES/Logos Plataformas y Cines/Logo Cinemark.png" alt="Cinemark y Hoyts"></a>
+            <form action="#" method="get">
+                <select name="Ubicaciónes CINEMARK">
+                    <option value="CINEMARK ALTO AVELLANEDA">CINEMARK ALTO AVELLANEDA</option>
+                    <option value="CINEMARK CABALLITO">CINEMARK CABALLITO</option>
+                    <option value="CINEMARK MALVINAS ARGENTINAS">CINEMARK MALVINAS ARGENTINAS</option>
+                    <option value="CINEMARK MENDOZA">CINEMARK MENDOZA</option>
+                    <option value="CINEMARK NEUQUEN">CINEMARK NEUQUEN</option>
+                    <option value="CINEMARK PALERMO">CINEMARK PALERMO</option>
+                    <option value="CINEMARK PUERTO MADERO">CINEMARK PUERTO MADERO</option>
+                    <option value="CINEMARK SALTA">CINEMARK SALTA</option>
+                    <option value="CINEMARK SAN JUSTO">CINEMARK SAN JUSTO</option>
+                    <option value="CINEMARK SANTA FE">CINEMARK SANTA FE</option>
+                    <option value="CINEMARK SOLEIL">CINEMARK SOLEIL</option>
+                    <option value="CINEMARK TORTUGUITAS">CINEMARK TORTUGUITAS</option>
+                </select>
+            </form>
+            <div class="mapas-cines">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3281.1410322228694!2d-58.37102178504983!3d-34.676389868853356!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a33340aec25703%3A0xab18b84c236f38ff!2sCinemark%20Alto%20Avellaneda!5e0!3m2!1ses!2sar!4v1679723320962!5m2!1ses!2sar"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <br>
 
-    <footer>
-        <a href="#">Audios y subtítulos</a>
-        <a href="#">Centro de ayuda</a>
-        <a href="#">Privacidad</a>
-        <a href="#">Contacto</a>
-        <a href="#">Términos de uso</a>
-        <a href="#">Avisos legales</a>
-        <a href="#">Preguntas frecuentes</a>
-        <a href="#">Quienes somos</a>
-        <a href="https://www.facebook.com/" target="_blank"><img src="../IMAGENES/Icono Facebook.png"
-                alt="FACEBOOK"></a>
-        <a href="https://www.twitter.com/" target="_blank"><img src="../IMAGENES/Icono Twitter.png" alt="TWITTER"></a>
-        <a href="https://www.youtube.com/" target="_blank"><img src="../IMAGENES/Icono Youtube.png" alt="YOUTUBE"></a>
-        <a href="https://www.instagram.com/" target="_blank"><img src="../IMAGENES/Icono Instagram.png"
-                alt="INSTAGRAM"></a>
-        <p>Natalia Zanni 2023©</p>
+            <a href="https://www.cinemarkhoyts.com.ar/" target="_blank"><img class="Cinemark y Hoyts"
+                src="../IMAGENES/Logos Plataformas y Cines/Logo Hoyts.png" alt="Cinemark y Hoyts"></a>
+                <form action="#" method="get">
+                <select name="Ubicaciónes HOYTS">
+                    <option value="HOYTS ABASTO">HOYTS ABASTO</option>
+                    <option value="HOYTS DOT">HOYTS DOT</option>
+                    <option value="HOYTS MORENO">HOYTS MORENO</option>
+                    <option value="HOYTS MORON">HOYTS MORON</option>
+                    <option value="HOYTS NUEVO CENTRO">HOYTS NUEVO CENTRO</option>
+                    <option value="HOYTS PATIO OLMOS">HOYTS PATIO OLMOS</option>
+                    <option value="HOYTS QUILMES">HOYTS QUILMES</option>
+                    <option value="HOYTS ROSARIO">HOYTS ROSARIO</option>
+                    <option value="HOYTS SALTA">HOYTS SALTA</option>
+                    <option value="HOYTS TEMPERLEY">HOYTS TEMPERLEY</option>
+                    <option value="HOYTS UNICENTER">HOYTS UNICENTER</option>
+                </select>
+            </form>
+            <div class="mapas-cines">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13136.137889695723!2d-58.4108409!3d-34.6032898!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca8c8513598b%3A0x89b570ec39dc7d88!2sHoyts%20Abasto%20%7C%20Cinemark%20Hoyts!5e0!3m2!1ses!2sar!4v1679723129303!5m2!1ses!2sar"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+<br>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-1">
+            <li><a href="#">Audios y subtítulos</a></li>
+            <li><a href="#">Centro de ayuda</a></li>
+            <li><a href="#">Privacidad</a></li>
+        </div>
+        <div class="footer-2">
+            <li><a href="#">Contacto</a></li>
+            <li><a href="#">Términos de uso</a></li>
+            <li><a href="#">Avisos legales</a></li>
+        </div>
+        <div class="footer-3">
+            <li><a href="#">Preguntas frecuentes</a></li>
+            <li><a href="#">Quienes somos</a></li>
+        </div>
+        <div class="footer-4">
+            <a href="https://www.facebook.com/" target="_blank"><img src="../IMAGENES/Logos RRSS/Icono Facebook.png"
+                    alt="FACEBOOK"></a>
+            <a href="https://www.twitter.com/" target="_blank"><img src="../IMAGENES/Logos RRSS/Icono Twitter.png"
+                    alt="TWITTER"></a>
+            <a href="https://www.youtube.com/" target="_blank"><img src="../IMAGENES/Logos RRSS/Icono Youtube.png"
+                    alt="YOUTUBE"></a>
+            <a href="https://www.instagram.com/" target="_blank"><img src="../IMAGENES/Logos RRSS/Icono Instagram.png"
+                    alt="INSTAGRAM"></a>
+
+            <br>
+            <p>Natalia Zanni 2023©</p>
+        </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
