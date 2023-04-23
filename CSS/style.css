@@ -9,22 +9,27 @@ header {
     background-color: black;
     color: #F5C518;
     font-family: 'Edu NSW ACT Foundation', cursive;
-    font-family: 'Roboto', sans-serif;;
+    font-family: 'Roboto', sans-serif;
+    ;
 }
 
 main {
+    background-color: black;
+    color: #F5C518;
+}
+
+footer {
     background-color: #F5C518;
     color: black;
 }
 
-footer {
-    background-color: black;
-    color: white;
+footer li {
+    list-style: none;
 }
 
 footer a {
     text-decoration: none;
-    color: white;
+    color: black;
 }
 
 .nombres-peliculas {
@@ -40,22 +45,40 @@ footer a {
 
 ul {
     list-style: none;
+    display: flex;
+    align-items: center;
+    margin-bottom: 0px;
+    flex-wrap: wrap;
 }
 
-ul li a{
+ul li a {
     color: #F5C518;
     text-decoration: none;
+    display: inline;
+    margin-left: 20px;
+    margin-right: 20px;
+    flex-wrap: wrap;
 }
+
+.barra-de-busqueda {
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
 
 .cartelera {
     text-align: center;
 }
+
 .filtrar-proximos-estrenos {
-    text-align:right;
+    text-align: right;
 }
 
-.filtrar-donde-ver { 
-    text-align: left;
+.filtro-donde-ver{
+    text-align: right;
+}
+.iconofiltro{
+    width: 15px;
 }
 
 .arriba {
@@ -64,12 +87,159 @@ ul li a{
 }
 
 .mas-vistos-y-clasicos {
-    color: black;
+    color: #F5C518;
     font-size: 22px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 40px;
 }
 
 .plataformas-hoy-y-cine {
     font-size: 20px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 20px;
+}
+
+.ActualmenteEnElCine {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    margin: 20px;
+}
+.ProximosEstrenosDeCine{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    margin: 20px;
+}
+
+
+.btn-outline-warning {
+    font-size: 10px;
+}
+
+.logo-cinemark {
+    width: 150px;
+}
+
+
+.ancho-maximo {
+    display: flex;
+    text-align: center;
+
+}
+
+.cartelera-negra {
+    background-color: black;
+    width: 100%;
+}
+
+.link-column {
+    flex-basis: 25.6rem;
+    margin-right: 1.6rem;
+    margin-bottom: 0;
+}
+
+.footer {
+    display: flex;
+
+}
+
+.footer-1 {
+    text-align: left;
+    margin: 1% 3%;
+}
+
+.footer-2 {
+    text-align: left;
+    margin: 1% 3%;
+}
+
+.footer-3 {
+    text-align: left;
+    margin: 1% 3%;
+}
+
+.footer-4 {
+    text-align: right;
+    margin-left: auto;
+    align-items: center;
+    margin-top: auto;
+}
+
+
+.btn-primary {
+    background-color: rgb(39, 34, 37);
+    border: #F5C518;
+    color: white;
+}
+
+
+.modal-content {
+    background-color: #F5C518;
+    color: black;
+    align-items: center;
+    width: 120%
+}
+
+.modal-fade {
+    justify-content: center;
+    align-items: center;
+}
+
+.collapse {
+    justify-content: right;
+}
+
+.padre {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    flex-wrap: wrap;
+
+}
+
+.card {
+    background-color: #F5C518;
+    color: black;
+}
+
+.btn {
+    color: #F5C518;
+}
+
+.data-bs-toggle {
+    background-color: #F5C518;
+}
+
+.padre-donde-ver {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.Puestos-Netflix {
+    font-size: 20px;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    font-family: 'Roboto', sans-serif;
+}
+
+.mapas-cines {
+    display: flex;
+    justify-content: center;
+}
+
+.nombre-ubicaciones {
+    margin-left: 50px;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+
+.streaming {
+    padding-left: 140px;
+}
+.btn {
+    background-color: black;
 }
