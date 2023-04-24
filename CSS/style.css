@@ -170,7 +170,7 @@ footer a {
 .ActualmenteEnElCine {
     display: flex;
     justify-content: space-between;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     margin: 20px;
 }
 
@@ -183,7 +183,7 @@ footer a {
     align-items: center;
 }
 
-.Puestos-Netflix {
+.Puestos-Streaming {
     font-size: 20px;
     font-family: 'Edu NSW ACT Foundation', cursive;
     font-family: 'Roboto', sans-serif;
@@ -205,7 +205,7 @@ footer a {
 .ProximosEstrenosDeCine {
     display: flex;
     justify-content: space-between;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     margin: 20px;
 }
 
