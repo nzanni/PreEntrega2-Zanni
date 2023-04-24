@@ -86,6 +86,11 @@ footer a {
     margin-top: auto;
 }
 
+h4 {
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
 
 /*INDEX*/
 .cartelera {
